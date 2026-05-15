@@ -1,0 +1,6 @@
+Model,Features Used,Best C,Best gamma,Weighted F1
+Classical 60-dim,60,10.75,0.04,0.7423
+Full Quantum 180-dim,180,8.5,0.01,0.8108
+X-only Quantum,60,50.0,0.05,0.6889
+Y-only Quantum,60,50.0,0.1,0.7029
+Z-only Quantum,60,5.0,0.01,0.7833
