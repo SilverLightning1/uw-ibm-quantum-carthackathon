@@ -27,7 +27,7 @@ The task is binary classification of CAR-T cell designs:
 
 ## Methods
 
-I trained support vector machine classifiers on:
+We trained support vector machine classifiers on:
 
 - Classical 60-dimensional features
 - Full 180-dimensional quantum-projected features
@@ -35,9 +35,9 @@ I trained support vector machine classifiers on:
 - Y-only quantum features
 - Z-only quantum features
 
-Then I selected 10 boundary samples from the classical SVM support vectors and ran their 60-qubit ZZFeatureMap circuits on IBM quantum hardware.
+Then we selected 10 boundary samples from the classical SVM support vectors and ran their 60-qubit ZZFeatureMap circuits on IBM quantum hardware.
 
-The QPU outputs were compared against precomputed reference projections for the same samples. I computed QPU-vs-reference discrepancy separately for the X, Y, and Z measurement bases.
+The QPU outputs were compared against precomputed reference projections for the same samples. We computed QPU-vs-reference discrepancy separately for the X, Y, and Z measurement bases.
 
 ## Key Results
 
